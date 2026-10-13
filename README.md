@@ -1,16 +1,51 @@
-# Travel Agent
+# ✈️ Travel Agent
 
-Shape a trip idea into a flexible day-by-day plan. Suggestions are examples, not live bookings.
+> Turn a trip idea into a flexible, day-by-day itinerary draft.
 
-## Run it
+A browser-based travel-planning prototype. Describe your destination, interests, dates, or budget to receive a simple itinerary with suggested activities for each day.
 
-Open `index.html` in a modern browser. No installation, API key, or internet connection is required.
+## ✨ Features
 
-## Contents
+- **Itinerary draft** — creates a short plan with morning, afternoon, and evening ideas.
+- **Interest-aware suggestions** — uses basic keyword matching for food and outdoor activities.
+- **Flexible starting point** — enter a trip idea in your own words.
+- **Runs locally** — no account or API key needed.
 
-- `index.html` — app markup and demo behavior
-- `style.css` — responsive styling
+## 🚀 Run the app
 
-## Notes
+1. Download and extract the project.
+2. Open `index.html` in a modern web browser.
+3. Describe your destination and what you enjoy.
+4. Select **Plan my trip**.
 
-This is a self-contained front-end demo. It stores no personal data and makes no network requests. Replace sample information and add a backend/API integration if you want production data or AI-generated responses. The travel planner produces illustrative itinerary suggestions, not live travel information.
+No installation, server, or internet connection is required.
+
+## 🧰 Built with
+
+- HTML
+- CSS
+- Vanilla JavaScript
+
+## 📁 Project files
+
+| File | Purpose |
+|---|---|
+| `index.html` | App interface and itinerary-generation logic |
+| `style.css` | Responsive visual styling |
+| `README.md` | Project overview and instructions |
+
+## ⚙️ How it works
+
+The app uses simple browser-side rules to create a generic itinerary from your text. It does not look up destinations or connect to maps, transport, booking, weather, or pricing services.
+
+## 🔭 Ideas for the next version
+
+- Integrate places, maps, transport, and weather providers.
+- Validate destinations, dates, and budget inputs.
+- Add itinerary editing and accessibility preferences.
+- Show data sources and when live information was retrieved.
+- Test invalid dates, missing details, and provider failures.
+
+## ⚠️ Before you travel
+
+This prototype does not verify opening hours, prices, safety, transport, or availability. Treat its suggestions as inspiration, and confirm current details with reliable sources before making plans.
